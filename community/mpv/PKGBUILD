@@ -43,7 +43,8 @@ build() {
     --enable-zsh-comp \
     --enable-libmpv-shared \
     --enable-cdda \
-    --enable-egl-x11
+    --enable-egl-x11 \
+    --enable-rpi
 
   ./waf build
 }
